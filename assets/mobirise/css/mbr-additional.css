@@ -23,7 +23,7 @@ body {
 }
 .display-1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.4rem;
+  font-size: 3.5rem;
 }
 .display-2 {
   font-family: 'Poppins', sans-serif;
@@ -48,9 +48,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.8rem;
+    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -800,7 +800,7 @@ pre {
 }
 /*Menu*/
 .display-1 > .mbr-iconfont {
-  font-size: 7.36rem;
+  font-size: 5.6rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
@@ -1611,6 +1611,51 @@ body {
 .cid-qvBeZxlbmI I {
   color: #ffffff;
 }
+.cid-qvGKszDesC {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background: #c1c1c1;
+}
+.cid-qvGKszDesC .images-container.container-fluid {
+  padding: 0;
+}
+.cid-qvGKszDesC .media-container-row {
+  margin: 0 auto;
+  align-items: stretch;
+}
+.cid-qvGKszDesC .media-container-row .img-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.cid-qvGKszDesC .media-container-row .img-item img {
+  width: 100%;
+}
+.cid-qvGKszDesC .media-container-row .img-item .img-caption {
+  background: #ffffff;
+  z-index: 2;
+  padding: 1rem 1rem;
+  word-break: break-word;
+}
+.cid-qvGKszDesC .media-container-row .img-item .img-caption p {
+  margin-bottom: 0;
+}
+.cid-qvGKszDesC .media-container-row .img-item.item1 {
+  padding: 0 2rem 0 0;
+}
+@media (max-width: 992px) {
+  .cid-qvGKszDesC .img-item {
+    width: 100% !important;
+  }
+  .cid-qvGKszDesC .img-item.item1 {
+    width: 100%;
+    flex-basis: initial !important;
+    padding: 0 0 2rem 0 !important;
+  }
+}
 .cid-qvBmZCBbnV {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1654,4 +1699,3 @@ body {
 .cid-qvBmZCBbnV .media-container-row {
   align-items: center;
 }
-
